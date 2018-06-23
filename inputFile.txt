@@ -1,0 +1,4 @@
+pierwsza linia
+druga linia
+trzecia linia
+czwarta linia
