@@ -1,4 +1,4 @@
-package com2;
+package ex_TryCatch;
 
 import java.util.Scanner;
 

@@ -1,14 +1,16 @@
-package com4;
+package ex_Stream;
 
 import java.io.*;
+import java.util.Scanner;
 
 public class MainStream {
 
     public static void main(String[] args) {
 
-        File inputFile = new File("inputFile.txt");
-        File outputFile = new File("outputFile.txt");
-
+        // Jesli widok w IDEA mam na Project to pathname: inputFile.txt
+        // Jesli widok w IDEA mam na EmptyProject/Modules to pathname: javase-2306/inputFile.txt
+        File inputFile = new File("javase-2306/inputFile.txt");
+        File outputFile = new File("javase-2306/outputFile.txt");
 
         try {
             FileReader fileReader = new FileReader(inputFile);
@@ -20,7 +22,7 @@ public class MainStream {
                 System.out.println(line);
                 bufferedWriter.write(line);
                 bufferedWriter.newLine();
-                //bufferedWriter.flush();
+                bufferedWriter.flush();
             };
 
         } catch (FileNotFoundException e) {

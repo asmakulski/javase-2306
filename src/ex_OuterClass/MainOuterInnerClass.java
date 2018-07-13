@@ -1,4 +1,4 @@
-package com;
+package ex_OuterClass;
 
 public class MainOuterInnerClass {
 
